@@ -1,0 +1,9 @@
+setup virtual enviornment
+
+sudo apt install python3-venv
+python3 -m venv my-project-env
+$ source my-project-env/bin/activate
+
+after activation install openCV
+pip install opencv-python
+above command install both openCv and numpy
